@@ -1,0 +1,10 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35;
+}
+.profile-picture{
+    width: 150px;
+    height: auto
+}
