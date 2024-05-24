@@ -7,3 +7,29 @@
     margin: 80px 170px;
 
 }
+.services-title{
+    position: relative;
+}
+.services-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.services-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.service-format{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
