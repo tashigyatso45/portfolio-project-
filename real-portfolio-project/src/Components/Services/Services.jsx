@@ -1,6 +1,7 @@
 import './Services.css'
 import theme from '../../assets/theme_pattern.svg'
 import data from '../../assets/services_data'
+import arrow from '../../assets/arrow_icon.svg'
 
 const Services = () => {
   return (
@@ -17,6 +18,7 @@ const Services = () => {
                     <p>service.s_desc</p>
                     <div className="services-readmore">
                         <p>read more</p>
+                        <img src={arrow} alt="" />
                     </div>
                 </div>
             })}
