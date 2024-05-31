@@ -10,7 +10,7 @@ const Services = () => {
             <h1> My Services</h1>
             <img src={theme} alt="" />
         </div>
-        <div className="service container">
+        <div className="service-container">
             {data.map((service,index)=>{
                 return <div key={index}className="service-format">
                     <h3>service.s_no</h3>
