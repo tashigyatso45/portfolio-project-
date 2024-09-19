@@ -84,5 +84,15 @@
 .about-skill:hover{
     transform: scale(1.05);
     transition: 0.3s;
-
+}
+.about-achievement:hover{
+    transform: scale(1.12);
+    transition: 0.3s;
+}
+.about-left img{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 150px;
+    height: 150px;
 }
