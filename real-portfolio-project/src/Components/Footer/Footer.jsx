@@ -4,7 +4,7 @@ import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
   return (
-    <div className='footer'>Footer
+    <div id="footer"className='footer'>Footer
         <div className="footer-top">
             <div className="footer-top-left">
                 <img src={footer_logo} alt="" />
