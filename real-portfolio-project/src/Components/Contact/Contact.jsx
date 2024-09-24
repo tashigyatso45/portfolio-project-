@@ -14,16 +14,20 @@ const Contact = () => {
         <div className="contact-left">
           <h1> Lets talk</h1>
           <p>imdsbndsdsds</p>
+          <div className="contact-details">
+            <div className="contact-detail">
+            <img src={mail_icon} alt="" /> <p>tashigyatso45@gmail.com</p>
+            </div>
+            <div className="contact-detail"> 
+            <img src={location_icon} alt="" /><p>NY, USA</p>
+            </div>
+            <div className="contact-detail">
+            <img src={call_icon} alt="" /> <p>+1 917-635-8146</p>
+            </div>
+          </div>
+          
         </div>
-        <div className="contact-details">
-          <img src={mail_icon} alt="" /> <p>tashigyatso45@gmail.com</p>
-        </div>
-        <div className="contact-details"> 
-          <img src={location_icon} alt="" /><p>NY, USA</p>
-        </div>
-        <div className="contact-details">
-          <img src={call_icon} alt="" /> <p>+1 917-635-8146</p>
-        </div>
+          
         <form className="contact-right">
           <label htmlFor="">Your name</label>
           <input type="text" placeholder='Enter your name' name='name' />
