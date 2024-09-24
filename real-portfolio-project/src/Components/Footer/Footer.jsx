@@ -1,7 +1,7 @@
 import './Footer.css'
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
-import underline from '../../assets/nav_underline.svg'
+
 const Footer = () => {
   return (
     <div className='footer'>Footer
