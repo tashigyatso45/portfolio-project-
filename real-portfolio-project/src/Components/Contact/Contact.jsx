@@ -24,9 +24,15 @@ const Contact = () => {
         <div className="contact-details">
           <img src={call_icon} alt="" /> <p>+1 917-635-8146</p>
         </div>
-        <div className="contact-right">
-          
-        </div>
+        <form className="contact-right">
+          <label htmlFor="">Your name</label>
+          <input type="text" placeholder='Enter your name' name='name' />
+          <label htmlFor="">Your Email</label>
+          <input type="text" placeholder='Enter Your email' name="Email"  />
+          <label htmlFor="">Write Your Message</label>
+          <textarea name="message" rows = "8" placeholder='enter your message' ></textarea>
+          <button type='submit' className='contact-submit'> Submit now </button>
+        </form>
 
       </div>
     
