@@ -42,6 +42,9 @@
     text-decoration: none;
     color: white;
 }
+.nav-mob-close{
+    display: none;
+}
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;
@@ -64,7 +67,7 @@
     .nav-menu{
         position: fixed;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         top: 0;
         gap: 30px;
         background-color: #1f0016;
@@ -73,5 +76,11 @@
         z-index: 2;
         transition: right 0.5s ;
         right: -350px;
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
     }
 }
