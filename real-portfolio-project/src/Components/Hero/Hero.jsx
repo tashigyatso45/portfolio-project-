@@ -7,11 +7,17 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={profile} alt="" className="profile-picture" />
       <h1>
-        <span>I am Tashi,</span> frontend developer
+        <span>I am Tashi,</span> Full-Stack Developer
       </h1>
-      <p>I am a front end developer from NYC </p>
+      <p></p>
       <div className="hero-action">
-        <div className="hero-connect"> <AnchorLink className='anchor-link' offset={50} href='#contact'> connect with me </AnchorLink></div>
+        <div className="hero-connect">
+          {" "}
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
+            {" "}
+            connect with me{" "}
+          </AnchorLink>
+        </div>
         <div className="hero-resume">My Resume </div>
       </div>
     </div>

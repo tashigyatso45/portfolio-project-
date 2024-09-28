@@ -1,13 +1,12 @@
-*{   
+* {
   margin: 0;
   padding: 0;
-
 }
-body{
-  height:100vh; 
+body {
+  height: 100vh;
   /* sets the height of the element to 100% of viewport height */
   background: #161513;
   color: white;
   /* sets text color to white  */
-  font-family: 'outfit';
+  font-family: "outfit";
 }
