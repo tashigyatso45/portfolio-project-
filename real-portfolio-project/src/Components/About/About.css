@@ -87,12 +87,15 @@
   transform: scale(1.12);
   transition: 0.3s;
 }
-.about-left img {
+.about-left {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
+}
+.about-left img {
+  height: 400px;
+  width: auto;
 }
 @media (max-width: 768px) {
   .about {
